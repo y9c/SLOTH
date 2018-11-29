@@ -1,7 +1,7 @@
 # SLOTH (Single-cell Lineage on Targeted Hypermutation)
 
 <p align="center">
-  <img src="docs/SLOTH.gif?raw=true" alt="SLOTH" title="SLOTH" width="50" height="50">
+  <img src="docs/SLOTH.gif?raw=true" alt="SLOTH" title="SLOTH" width="200" height="200">
 </p>
 
 -----------------
