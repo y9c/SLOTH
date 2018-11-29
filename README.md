@@ -1,6 +1,6 @@
 # SLOTH (Single-cell Lineage on Targeted Hypermutation)
 
-![logo](docs/SLOTH.gif?raw=true "logo")
+![logo](docs/SLOTH.gif?raw=true "logo" =50x50)
 
 Cell genealogy paper
 
