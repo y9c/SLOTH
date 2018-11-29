@@ -1,6 +1,13 @@
 # SLOTH (Single-cell Lineage on Targeted Hypermutation)
 
-<img src="docs/SLOTH.gif?raw=true" alt="SLOTH" title="SLOTH" style="max-width:30%;">
+<p align="center">
+  <img src="docs/SLOTH.gif?raw=true" alt="SLOTH" title="SLOTH" width="50" height="50">
+</p>
+
+-----------------
+
+![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)
+
 
 Cell genealogy paper
 
