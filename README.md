@@ -7,6 +7,8 @@
 -----------------
 
 ![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)
+[![DOI:TBD/TBD](https://zenodo.org/badge/DOI/TBD.svg)](https://doi.org/TBD/TBD)
+
 
 
 Cell genealogy paper
