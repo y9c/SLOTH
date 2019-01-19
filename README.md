@@ -6,9 +6,9 @@
 
 -----------------
 
-![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)
 [![DOI:TBD/TBD](https://zenodo.org/badge/DOI/TBD.svg)](https://doi.org/TBD/TBD)
-
+[![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)](/LICENSE.md)
+[![Creative Commons Attribution 4.0 International License](https://mirrors.creativecommons.org/presskit/buttons/80x15/png/by.png)](https://creativecommons.org/licenses/by/4.0/)
 
 
 Cell genealogy paper
@@ -34,8 +34,5 @@ Cell genealogy paper
 
 ## LICENSE
 
-The content of this project itself is created only by **Ye Chang** and licensed under the [Creative Commons Attribution 4.0 International License (CC BY)](https://creativecommons.org/licenses/by/4.0/), 
+The content of this project itself is created only by **Ye Chang** and licensed under the [Creative Commons Attribution 4.0 International License (CC BY)](https://creativecommons.org/licenses/by/4.0/),
 and the underlying source code used to format and display that content is licensed under the [MIT license](LICENSE.md).
-
-![Creative Commons Attribution 4.0 International License](https://github.com/creativecommons/cc-cert-core/blob/master/images/cc-by-88x31.png "CC BY")
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
