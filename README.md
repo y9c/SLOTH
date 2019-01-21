@@ -14,15 +14,19 @@ Cell genealogy paper
 
 ## PROCEDURE 
 
-- prepare pacbio data
-- quality stat
-- split read
-- unify sequence
-- call mutation
-- build tree
-- visualize tree
-- progenitor infer
-- simulation
+- Single Molecule Sequecing Pipeline (SMRT)
+  * prepare pacbio data
+  * quality stat
+  * split read
+  * unify sequence
+  * call mutation
+  * build tree
+  * visualize tree
+  * progenitor infer
+  * simulation
+
+- Single Cell Tree Construction
+  * maximum likelihood method 
 
 ## TODO
 
