@@ -12,6 +12,15 @@
 
 Cell genealogy paper
 
+## READ MORE
+
+scientific question :
+https://celllineage.github.io/SLOTH/index.html
+
+technical details:
+https://github.com/CellLineage/SLOTH/wiki
+
+
 ## PROCEDURE 
 
 - Single Molecule Sequecing Pipeline (SMRT)
@@ -32,6 +41,10 @@ Cell genealogy paper
 
 - [ ] turn consensus part into a independent package
 - [ ] update outline of paper
+- [ ] write wiki page for the technical details
+- [ ] write web page for the scientific question
+- [ ] add js framework for renderng the tree
+
 
 ---
 
