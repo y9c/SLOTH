@@ -2,7 +2,7 @@
 
 The code for analysising cell population dynamic has been wrapped into a R [package](https://github.com/shadowdeng1994/NpDynamic).
 
-1. intall the package
+1. install the package
 
 ```R
 install.packages("devtools")
