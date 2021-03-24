@@ -29,10 +29,7 @@ Mapping single-cell-resolution cell phylogeny reveals cell population dynamics d
 
 - **Population Dynamics** (pop)
 
-  - CoalescentSimulation
-  - NpDynamic
-  - SShape
-  - TissueSimilarity
+  - ?
 
 - simulation (simu)
 
