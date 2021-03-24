@@ -13,7 +13,7 @@ Mapping single-cell-resolution cell phylogeny reveals cell population dynamics d
 
 ## PROCEDURE
 
-- **Single Molecule Sequecing Pipeline** (smrt)
+- **Single Molecule Sequecing Pipeline** ([smrt](./smrt))
 
   - prepare pacbio data
   - quality stat
@@ -21,17 +21,17 @@ Mapping single-cell-resolution cell phylogeny reveals cell population dynamics d
   - unify sequence
   - call mutation
 
-- **Single Cell Tree Construction** (tree)
+- **Single Cell Tree Construction** ([tree](./smrt))
 
   - build tree by maximum likelihood method
   - visualize tree
   - benchmarking cell lineage tracing system (tree/benchmark)
 
-- **Population Dynamics** (pop)
+- **Population Dynamics** ([pop](./pop))
 
   - ?
 
-- simulation (simu)
+- simulation ([simu](./simu))
 
 ## READ MORE
 
