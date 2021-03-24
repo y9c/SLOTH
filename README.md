@@ -44,7 +44,7 @@ https://github.com/CellLineage/SLOTH/wiki
 ## How to use?
 
 ```bash
-git clone --recurse-submodules https://github.com/CellLineage/SLOTH.git
+git clone https://github.com/CellLineage/SLOTH.git
 ```
 
 ---
