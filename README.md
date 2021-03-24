@@ -44,6 +44,12 @@ https://celllineage.github.io/SLOTH/index.html
 technical details:
 https://github.com/CellLineage/SLOTH/wiki
 
+## How to use?
+
+```bash
+git clone --recurse-submodules https://github.com/CellLineage/SLOTH.git
+```
+
 ---
 
 ## TODO
