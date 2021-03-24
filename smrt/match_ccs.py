@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
-"""match sequence with sample barcode and UMI index
+"""match sequence with sample barcode and UMI index.
+
 - update in 2018-08-06: support reverse complement
     - method
     one step match
@@ -8,8 +9,8 @@
     # 454UPR-(UMI)-3kF-(sequence)-3kR-(sampleBarcode)
 """
 
-import multiprocessing as mp
 import logging
+import multiprocessing as mp
 import os
 import sys
 
@@ -246,9 +247,7 @@ def match_read_dict(read_dict):
 
 
 def run_iter(input_bam_file, output_bam_file):
-    """
-    test run
-    """
+    """test run."""
     infile = pysam.AlignmentFile(input_bam_file, "rb", check_sq=False)
     with pysam.AlignmentFile(
         output_bam_file, "wb", template=infile

@@ -1,0 +1,43 @@
+---
+title: "Compare_with_tree_from_AlexanderSchier_nbt_paer"
+author: "yechang"
+date: "7/15/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(treeio)
+library(ggtree)
+library(tidyjson)
+```
+
+## R Markdown
+
+```{r}
+read_json("./F5N3_sept2nd_2PART.withCells.allReads_cluster_colors.json") %>% 
+  spread_values(parent.name = jstring("name")) %>% 
+  enter_object("children") %>% 
+  gather_array %>% 
+  append_values_string("children")
+```
+
+```{r pressure, echo=FALSE}
+paste(readLines("./F5N3_sept2nd_2PART.withCells.allReads_cluster_colors.json"), collapse=" ") %>% 
+  gather_array %>%                                     # stack the users 
+  spread_values(name = jstring("name")) %>%            # extract the user name
+  enter_object("children") %>%
+  gather_array %>%                                     # stack the purchases
+  head
+
+  spread_values(purchase.date = jstring("date")) %>%   # extract the purchase date
+  enter_object("items") %>% gather_array %>%           # stack the items
+  spread_values(                                       # extract item name and price
+    item.name = jstring("name"),
+    item.price = jnumber("price")
+  ) %>%
+  select(person, purchase.date, item.name, item.price) # select only what is needed
+
+jsonlite::fromJSON("./F5N3_sept2nd_2PART.withCells.allReads_cluster_colors.json", simplifyDataFrame=TRUE) %>% 
+read.jtree("./F5N3_sept2nd_2PART.withCells.allReads_cluster_colors.json")
+```
