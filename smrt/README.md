@@ -49,7 +49,7 @@ As the diagram below, a fully aligned sequence contains
 - a pairs of **libary barcodes** on both ends,
 - a pairs **sample barcodes** on the inner side of the library barcode,
 - an (Unique molecular indentifier) UMI on the 5' side,
-- and a part biological sequence in the center of the read.
+- and a **biological sequence** in the center of the read.
 
 _biological sequence_ is opposite to _technical sequence_, which is introduced by PCR or ligation reaction.
 
@@ -70,7 +70,7 @@ You can also take the [parse_feature.py](parse_feature.py) script in this repo t
 
 ## Link Sample Barcode Sequence
 
-<details><summary>BARCODE TABLE (click to show more)</summary>
+<details><summary>BARCODE TABLE (<- click to show more)</summary>
 <p>
 
 | Individual | Organ | Barcode_ID | Barcode_Sequence |
@@ -124,11 +124,30 @@ Refer [parse_feature.py](parse_feature.py) script for more details.
 
 ## Cluster Molecular Indentifier (UMI) Sequence
 
-UMI sequences (14 bp) of each sample were clustered by `unsearch` tool, with a a variant of the UCLUST algorithm.
+UMI sequences (14 bp) of each sample were clustered by `usearch` tool, with a a variant of the UCLUST algorithm.
 After a clustering, identical / similar UMI sequences can be linked to an unique ID.
+
+The parameters for usearch tool are `-id 0.95 -gapopen 3.0I/2.0E -gapext 1.0I/0.5E -match +2.0 -mismatch -20.0`.
 
 Refer [cluster_umi.sh](cluster_umi.sh) script for more details.
 
-## Split Data by Sample Barcode and Molecular Indentifier
+## Group Reads by Sample Barcode and Molecular Indentifier
+
+After the sample barcodes and the molecular indentifier have been annotated, the **biological sequence** of each stranded ccs read can be linked to a specific lineage barcode in an organ.
+Several biological sequence might link to one unique lineage barcode. We can utilize this information to generate consensus sequence, and eliminate sequence errors.
 
 Refer [run_annotate_umi.sh](run_annotate_umi.sh) script for more details.
+
+## Generate Consensus Sequence for Lineage Barcode
+
+The consensus sequence mentioned in this section is different from circular consensus sequnce (CCS). **They are from different sequencing reads, but from identical lineage barcode.**
+
+Refer [ccc.py](ccc.py) script for more details.
+
+## Call Mutation
+
+Refer [call_mutation.py](call_mutation.py) script for more details.
+
+## Post Quality Filter
+
+Refer [select_cluster.py](select_cluster.py) script for more details.
