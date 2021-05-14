@@ -15,17 +15,22 @@ Mapping single-cell-resolution cell phylogeny reveals cell population dynamics d
 
 - **Single Molecule Sequecing Pipeline** ([smrt](./smrt))
 
-  - prepare pacbio data
-  - quality stat
-  - split read
-  - unify sequence
-  - call mutation
+  - Adaptors Trimming
+  - Circular Consensus Sequence Generation
+  - Align to Reference Sequence
+  - Annotate Sequence Features
+  - Link Sample Barcode Sequence
+  - Cluster Molecular Indentifier (UMI) Sequence
+  - Group Reads by Sample Barcode and Molecular Indentifier
+  - Generate Consensus Sequence for Lineage Barcode
+  - Call Mutation
+  - Post Quality Filter
 
-- **Single Cell Tree Construction** ([tree](./smrt))
+- **Single Cell Tree Construction** ([tree](./tree))
 
-  - build tree by maximum likelihood method
-  - visualize tree
-  - benchmarking cell lineage tracing system (tree/benchmark)
+  - Build tree by maximum likelihood method
+  - Visualize tree
+  - Benchmarking cell lineage tracing system (tree/benchmark)
 
 - **Population Dynamics** ([pop](./pop))
 
