@@ -82,4 +82,7 @@ git clone https://github.com/CellLineage/SLOTH.git
 The content of this project itself is created by **Ye Chang** and licensed under the [Creative Commons Attribution 4.0 International License (CC BY)](https://creativecommons.org/licenses/by/4.0/),
 and the underlying source code used to format and display that content is licensed under the [MIT license](LICENSE.md).
 
-[![Creative Commons Attribution 4.0 International License](https://github.com/creativecommons/cc-cert-core/blob/master/images/cc-by-88x31.png 'CC BY')](https://creativecommons.org/licenses/by/4.0/)
+[![CC BY 4.0][cc-by-image]][cc-by]
+
+[cc-by]: http://creativecommons.org/licenses/by/4.0/
+[cc-by-image]: https://i.creativecommons.org/l/by/4.0/88x31.png
