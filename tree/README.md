@@ -1,5 +1,7 @@
 # Single Cell Tree Construction
 
+![Tree](../docs/tree.png)
+
 ## Build Tree by Maximum Likelihood Method
 
 [IQ-TREE](https://github.com/Cibiv/IQ-TREE)
@@ -17,5 +19,3 @@ Refer [set_outgroup.py](set_outgroup.py) script for more details.
 Refer [iqtree_internal_state_table_to_sequence.py](iqtree_internal_state_table_to_sequence.py) script for more details.
 
 ## Visualize Tree
-
-
