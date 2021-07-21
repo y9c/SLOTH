@@ -48,7 +48,9 @@ Mapping single-cell-resolution cell phylogeny reveals cell population dynamics d
 
 - **Simulation** ([simu](./simu))
 
-  - ?
+  - Generate Cell Tree (division / differentiation / mutation)
+  - Subsample Barcoded Cells
+  - Reconstruct Cell Lineage Tree
 
 - **Population Dynamics** ([pop](./pop))
 
@@ -62,20 +64,13 @@ https://celllineage.github.io/SLOTH/index.html
 technical details:
 https://github.com/CellLineage/SLOTH/wiki
 
-## How to use?
+## HOW TO USE?
 
 ```bash
 git clone https://github.com/CellLineage/SLOTH.git
 ```
 
 ---
-
-## TODO
-
-- [ ] turn consensus part into a independent package
-- [ ] write wiki page for the technical details
-- [ ] write web page for the scientific question
-- [ ] add js framework for renderng the tree
 
 ## LICENSE
 
