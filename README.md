@@ -6,8 +6,10 @@
 
 ---
 
-[![DOI:TBD/TBD](https://zenodo.org/badge/DOI/TBD.svg)](https://doi.org/TBD/TBD)
 [![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)](/LICENSE.md)
+[![DOI:10.1038/s41592-021-01325-x](https://zenodo.org/badge/DOI/10.1038/s41592-021-01325-x.svg)](https://doi.org/10.1038/s41592-021-01325-x)
+[![Citation Badge](https://api.juleskreuer.eu/citation-badge.php?doi=10.1038/s41592-021-01325-x)](https://www.nature.com/articles/s41592-021-01325-x/metrics)
+
 
 Mapping single-cell-resolution cell phylogeny reveals cell population dynamics during organ developments
 
@@ -71,6 +73,10 @@ git clone https://github.com/CellLineage/SLOTH.git
 ```
 
 ---
+
+## CITATION
+
+Liu, K., Deng, S., Ye, C. et al. Mapping single-cell-resolution cell phylogeny reveals cell population dynamics during organ development. **Nat Methods** 18, 1506–1514 (2021). [https://doi.org/10.1038/s41592-021-01325-x](https://doi.org/10.1038/s41592-021-01325-x)
 
 ## LICENSE
 
